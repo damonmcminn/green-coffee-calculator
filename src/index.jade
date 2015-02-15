@@ -23,19 +23,19 @@ html
               id='loss',
               value=15).pure-input-1-1
           div.pure-control-group
-            label(for='roasted') Roasted Weight
+            label(for='roasted') Roasted Weight kg
             input(
               type='number',
               step=0.001,
               name='roasted',
               id='roasted',
-              placeholder='kg').pure-input-1-1
+              placeholder='Total weight required').pure-input-1-1
           div.pure-control-group
             label(for='green') Green Weight
             input(
               name='green',
               id='green',
-              value='Calculate!',
+              placeholder='Calculate!',
               disabled=true).pure-input-1-1
           div.pure-controls
             button#calc.pure-button.pure-button-primary(type='button') Calculate
