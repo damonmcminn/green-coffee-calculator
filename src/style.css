@@ -3,6 +3,13 @@
   background-color: white;
 }
 
-#title {
+#calculator {
+  max-width: 200px;
+  margin: 2em auto 0 auto;
+  text-align: center;
+}
+
+#calculator .pure-form-stacked input {
+  margin-bottom: 1.25em;
   text-align: center;
 }
