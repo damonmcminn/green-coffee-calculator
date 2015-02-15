@@ -12,4 +12,9 @@
 #calculator .pure-form-stacked input {
   margin-bottom: 1.25em;
   text-align: center;
+  width: 100%;
+}
+
+#calculator button {
+  width: 100%;
 }
