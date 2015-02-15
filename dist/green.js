@@ -48,8 +48,6 @@
     var notNumbers = (!validateNumber(r) || !validateNumber(l));
     var negative = ((r < 0) || (l < 0));
 
-    console.log(notNumbers, negative);
-
     if (notNumbers || negative) {  
       alert('Values must be postive numbers');
     } else {
