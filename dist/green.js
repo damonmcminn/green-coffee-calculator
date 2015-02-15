@@ -35,7 +35,14 @@
   }
 
   roasted.oninput = function() {
-    return green.value = 'Calculate!';
+    return green.value = '';
+  }
+
+  document.onkeypress = function(e) {
+    var enter = (e.keyCode === 13);
+    if (enter) {
+      return calc.onclick();
+    }
   }
 
   calc.onclick = function() {
