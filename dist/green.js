@@ -31,7 +31,9 @@
   var green = getEl('green');
 
   loss.oninput = function() {
-    return coffeeYield = (100 - loss.value)/100;
+    coffeeYield = (100 - loss.value)/100;
+    green.value = '';
+    return;
   }
 
   roasted.oninput = function() {
